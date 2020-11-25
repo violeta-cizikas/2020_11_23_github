@@ -59,7 +59,7 @@ const data = [
     comments: [
       {
         name: "Violeta",
-        comment: "true love / avwsome / my rating _ 11 of 10",
+        comment: "true love / avesome / my rating _ 11 of 10",
       },
     ],
   },

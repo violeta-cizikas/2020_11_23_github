@@ -48,7 +48,7 @@
 	width: 200px;
 	height: 100%;
 	background-repeat: no-repeat;
-	background-size: contain; /*prisitaiko prie konteinerio dimensiju*/
+	background-size: cover; /*prisitaiko prie konteinerio dimensiju*/
 }
 
 .rightCardSide {
