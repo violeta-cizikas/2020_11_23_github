@@ -103,6 +103,7 @@
 
 .containerLeftSide .leftCardSide {
 	margin-left: 20px;
+	background-size: contain;
 }
 
 .containerRightSide {
