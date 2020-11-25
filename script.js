@@ -155,7 +155,7 @@ function secondWindow(event) {
             <span class="description">${item.description}</span>
             ${item.video}
 
-            You name:
+            Your name:
             <input type="text" id="nameInput">
             Your comment:
             <input type="text" id="commentInput">
