@@ -38,7 +38,7 @@
 	cursor: pointer;
 }
 
-#add:hover, #back:hover {
+#add:hover, #back:hover, .submit:hover {
 	background-color: #fff;
 	color: #000;
 
