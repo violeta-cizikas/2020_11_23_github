@@ -95,10 +95,9 @@ const data = [
   },
 ];
 
-let button = document.getElementById("add");
-let button2  = document.getElementsByClassName("watch");
+let button2 = document.getElementsByClassName("watch");
 let button3 = document.getElementById("back");
-let button4  = document.getElementsByClassName("submit");
+let button4 = document.getElementsByClassName("submit");
 
 let container = document.getElementById("container");
 let container2 = document.getElementById("containerWindow");
@@ -128,10 +127,11 @@ function showMovies(event) {
   `
       })
   }
+
 showMovies()
 
 function secondWindow(event) {
-  console.log(event.composedPath())
+  // console.log(event.composedPath())
   let selectedMovieId = Number(event.composedPath()[2].id)
   let item = data[selectedMovieId]
   container.style.display = 'none'
@@ -155,9 +155,9 @@ function secondWindow(event) {
             <span class="description">${item.description}</span>
             ${item.video}
 
-            Your name:
+            <span class="formlabel">Your name:</span>
             <input type="text" id="nameInput">
-            Your comment:
+            <span class="formlabel">Your comment:</span>
             <input type="text" id="commentInput">
 
             <button class="submit">Submit</button>
@@ -169,7 +169,6 @@ function secondWindow(event) {
               <p class="paragraph">${comment.comment}</p>`
             }).join('')}
             
-
             </div>
     </div>
   `
