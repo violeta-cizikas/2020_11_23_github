@@ -45,7 +45,7 @@
 }
 
 .leftCardSide {
-	width: 200px;
+	width: calc(100% - 40px);
 	height: 70%;
 	background-repeat: no-repeat;
 	background-size: cover; /*prisitaiko prie konteinerio dimensiju*/
@@ -69,7 +69,6 @@
 	font-weight: bold;
 	font-size: 20px;
 	display: block;
-	margin-top: 10px;
 	text-transform: uppercase;
 }
 
@@ -112,7 +111,7 @@
 	display: flex;
 	flex-direction: column;
 	color: #fff;
-	padding-top: 70px;	
+	padding-top: 77px;	
 }
 
 .containerRightSide *{
