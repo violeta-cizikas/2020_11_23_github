@@ -51,6 +51,13 @@
 	background-size: cover; /*prisitaiko prie konteinerio dimensiju*/
 }
 
+.leftCardSideList {
+	width: 200px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover; /*prisitaiko prie konteinerio dimensiju*/
+}
+
 .rightCardSide {
 	width: 200px;
 	height: 100%;
@@ -134,4 +141,19 @@
 
 #nameInput, #commentInput {
 	border-radius: 5px;
+}
+
+/* @media screen veikia ant betkokiu ekranu */
+@media screen and (max-width: 750px) {
+	.containerLeftSide, .containerRightSide {
+		width: 100%;
+	}
+
+	.containerWindow {
+		flex-wrap: wrap;
+	}
+
+	body * {
+		background: red;
+	}
 }

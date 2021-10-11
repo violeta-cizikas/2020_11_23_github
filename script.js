@@ -110,7 +110,7 @@ function showMovies(event) {
     cards.innerHTML += `
       <div class="container2" id="${index}">
 
-        <div class="leftCardSide" style="background-image:url(${item.image})"></div>  
+        <div class="leftCardSideList" style="background-image:url(${item.image})"></div>  
 
         <div class="rightCardSide">
 
